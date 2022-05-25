@@ -1,0 +1,8 @@
+ ___________________________________________________________________________
+|                                                                           |
+|                                                                           |
+| You Are a knight on a expedition to explore this old and decaying dungeon |
+| You Fell into one of the deeper floors and lost the rest of your crew so  |                    
+|                       Now you must find way out......                     |
+|                                                                  Back [b] |
+ ---------------------------------------------------------------------------

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TextFiles">
+      <UniqueIdentifier>{6dd6efee-12a6-4242-938e-5c6ca38cd272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{b5535d30-47f9-4bf5-8e05-a00155f4805a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemys">
+      <UniqueIdentifier>{5a1f3b46-a69d-498e-9e89-413e4ba77a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Npc%27s">
+      <UniqueIdentifier>{0d8dcf70-2fe2-46ad-a04e-2dc93bd4c116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextFiles\BlackSmith">
+      <UniqueIdentifier>{f8ee1d01-4e77-4d40-9993-14dff3434fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextFiles\PlayerInventory">
+      <UniqueIdentifier>{817e343c-0ad7-4683-93b2-8c29a7b3011d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextFiles\ShopKeeper">
+      <UniqueIdentifier>{3553e75d-0fe8-47a6-b889-2b54a1b50401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Map">
+      <UniqueIdentifier>{e2a30517-c650-4bd0-906a-fb169a63e843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextFiles\Guide">
+      <UniqueIdentifier>{affada49-8809-4b75-9af8-ffe63c7003db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextFiles\Enemy">
+      <UniqueIdentifier>{7c05c1b6-904d-4751-95c5-46c9d99096f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameObjects\Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardPatrolUpAndDown.cpp">
+      <Filter>GameObjects\Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>GameObjects\Npc%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackSmith.cpp">
+      <Filter>GameObjects\Npc%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="LootBox.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopKeeper.cpp">
+      <Filter>GameObjects\Npc%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardPatrolLeftAndRight.cpp">
+      <Filter>GameObjects\Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Guide.cpp">
+      <Filter>GameObjects\Npc%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonKeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TitleScreen.txt">
+      <Filter>TextFiles</Filter>
+    </Text>
+    <Text Include="BlackSmithsSoldOut.txt">
+      <Filter>TextFiles\BlackSmith</Filter>
+    </Text>
+    <Text Include="BlackSmiths.txt">
+      <Filter>TextFiles\BlackSmith</Filter>
+    </Text>
+    <Text Include="BlackSmithsMenu.txt">
+      <Filter>TextFiles\BlackSmith</Filter>
+    </Text>
+    <Text Include="BlackSmithsShop.txt">
+      <Filter>TextFiles\BlackSmith</Filter>
+    </Text>
+    <Text Include="BlackSmithsShopV2.txt">
+      <Filter>TextFiles\BlackSmith</Filter>
+    </Text>
+    <Text Include="BlackSmithsShopV3.txt">
+      <Filter>TextFiles\BlackSmith</Filter>
+    </Text>
+    <Text Include="BlackSmithsShopV4.txt">
+      <Filter>TextFiles\BlackSmith</Filter>
+    </Text>
+    <Text Include="BlackSmithsShopV5.txt">
+      <Filter>TextFiles\BlackSmith</Filter>
+    </Text>
+    <Text Include="BlackSmithsShopV6.txt">
+      <Filter>TextFiles\BlackSmith</Filter>
+    </Text>
+    <Text Include="EmptyBackpack.txt">
+      <Filter>TextFiles\PlayerInventory</Filter>
+    </Text>
+    <Text Include="BackPackWithSword.txt">
+      <Filter>TextFiles\PlayerInventory</Filter>
+    </Text>
+    <Text Include="BackPackWithSwordAndShield.txt">
+      <Filter>TextFiles\PlayerInventory</Filter>
+    </Text>
+    <Text Include="BlackPackWithShield.txt">
+      <Filter>TextFiles\PlayerInventory</Filter>
+    </Text>
+    <Text Include="BlackSmithUpgradeOptions.txt">
+      <Filter>TextFiles\BlackSmith</Filter>
+    </Text>
+    <Text Include="ShopKeeper.txt">
+      <Filter>TextFiles\ShopKeeper</Filter>
+    </Text>
+    <Text Include="ShopKeeperMenu.txt">
+      <Filter>TextFiles\ShopKeeper</Filter>
+    </Text>
+    <Text Include="ShopKeeperShop.txt">
+      <Filter>TextFiles\ShopKeeper</Filter>
+    </Text>
+    <Text Include="Guide.txt">
+      <Filter>TextFiles\Guide</Filter>
+    </Text>
+    <Text Include="GuideMenu.txt">
+      <Filter>TextFiles\Guide</Filter>
+    </Text>
+    <Text Include="Controls.txt">
+      <Filter>TextFiles\Guide</Filter>
+    </Text>
+    <Text Include="WhatToDo.txt">
+      <Filter>TextFiles\Guide</Filter>
+    </Text>
+    <Text Include="Info.txt">
+      <Filter>TextFiles\Guide</Filter>
+    </Text>
+    <Text Include="Grunt.txt">
+      <Filter>TextFiles\Enemy</Filter>
+    </Text>
+    <Text Include="Rewards.txt">
+      <Filter>TextFiles</Filter>
+    </Text>
+    <Text Include="GameOver.txt">
+      <Filter>TextFiles</Filter>
+    </Text>
+    <Text Include="WinScreen.txt">
+      <Filter>TextFiles</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameObjects\Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardPatrolUpAndDown.h">
+      <Filter>GameObjects\Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>GameObjects\Npc%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackSmith.h">
+      <Filter>GameObjects\Npc%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="LootBox.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopKeeper.h">
+      <Filter>GameObjects\Npc%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardPatrolLeftAndRight.h">
+      <Filter>GameObjects\Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Guide.h">
+      <Filter>GameObjects\Npc%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonKeeper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
